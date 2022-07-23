@@ -1,0 +1,131 @@
+.logo{
+  width: 120px;
+}
+.welcome{
+  font-size: 50px;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  padding: 5px;
+  animation-name: coloring;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+.navbar > h2{
+  padding: 5px;
+  border: 2px solid black;
+  margin: 8px;
+  transition: 0.5s;
+  color: red;
+  
+}
+.navbar > h2:hover{
+  border: 2px solid black;
+  background-color: rgba(244, 244, 0, 0.322);
+  padding: 5px 10px;
+  color: rgb(250, 7, 47);
+  cursor: pointer;
+}
+body{
+  background-color: rgba(14, 228, 236, 0.47);
+}
+.left{
+  height: 40px;
+  width: 40px;
+  margin: 80px 40px;
+  font-size: large;
+}
+.right{
+  height: 40px;
+  width: 40px;
+  margin: 80px 40px;
+  font-size: large;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(206, 255, 251);
+  border-radius: 6px;
+  min-width: 200px;
+  overflow-x: hidden;
+}
+.items{
+  background-color: hsla(196, 100%, 50%, 0.518);
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding: 20px;
+  margin: 10px;
+  overflow-x: scroll;
+}
+.items::-webkit-scrollbar{
+  display:none;
+}
+.subscriptions{
+  display: flex;
+  border: 2px solid black;
+}
+.subscibe-here{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.text{
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.subs{
+  margin-left: 50px;
+  color: blueviolet;
+  font-weight: 800;
+}
+.review{
+  text-align: center;
+  margin-top: 80px;
+  color: blue;
+}
+.home{
+  width: 200px;
+  text-align: center;
+}
+h4{
+  color: rgb(249, 101, 101);
+}
+h3{
+  color: brown;
+}
+p{
+  color: orange;
+  font-style: italic;
+
+}
+.note{
+  color: rebeccapurple;
+  margin: 20px;
+}
+.hi{
+  font-style: normal;
+  color: rgb(246, 79, 79);
+}
+.verify{
+  text-align: center;
+  color: red;
+}
+@keyframes coloring{
+  0% {clour:orange;}
+  50% {color: red; }
+  100% {color: rgb(255, 3, 238);}
+}
